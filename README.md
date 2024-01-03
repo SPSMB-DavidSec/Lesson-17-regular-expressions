@@ -39,6 +39,9 @@ Intermediate 😄:
 
 <li class=" uu5-bricks-li"><span class="uu-bricks-j5rkb3">Write a regular expression for phone number validation. It must contain ninie digits plus country code, and can be separated by spaces betweeen each three digits of prone number and also between country code and phone number.</li> <code id="dbb384a98d1994435aba6cf77bd382d2-code" class="uu5-bricks-_code uu5-bricks-code">420 123 456 789
 </code> but also <code id="6b1939252bb2c44fd9fdbefd7a8e3393-code" class="uu5-bricks-_code uu5-bricks-code">+420 123 456 789</code>, <code id="6b1939252bb2c44fd9fdbefd7a8e3393-code" class="uu5-bricks-_code uu5-bricks-code">+420 123456789</code> or even  <code id="6b1939252bb2c44fd9fdbefd7a8e3393-code" class="uu5-bricks-_code uu5-bricks-code">+77 123456789</code> for some another country.
+
+`    \+?\d{1,3}\s?\d{3}\s?\d{3}\s?\d{3}`
+
 </ol></div></div> 
 
 
