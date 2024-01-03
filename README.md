@@ -19,20 +19,22 @@
 
 Basic:
 
-`\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}`
+    `\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[+-]\d{2}:\d{2}`
 
 Intermediate 😄: 
 
-`(?<year>\d{4})-(?<month>0[1-9]|1[1-2])-(?<day>[012][0-9]|3[01])T(?<hour>[012][0-9]):(?<minutes>[05][0-9]):(?<second>[0-5][0-9])(?<offset>[+-](0[0-9]|1[1-2]):([05][0-9]))`
+    `(?<year>\d{4})-(?<month>0[1-9]|1[1-2])-(?<day>[012][0-9]|3[01])T(?<hour>[012][0-9]):(?<minutes>[05][0-9]):(?<second>[0-5][0-9])(?<offset>[+-](0[0-9]|1[1-2]):([05][0-9]))`
                                                                                                                                                                                                                                                                                                                                                                
 <li class=" uu5-bricks-li"><span class="uu-bricks-j5rkb3">Use a regular expression to get the day, month, and year from the previous iso notation.</span></li>
 
 
 <li class=" uu5-bricks-li"><span class="uu-bricks-j5rkb3">Write a regular expression to validate the generic id, which can only contain numbers and letters a-f, has a maximum of 8 characters and can also contain a question mark at the beginning (eg ?a582fd10 or 0ba99cc1). Write the regular expression to a function that will validate its input and return a boolean.</span></li>
 
-`\??[a-zA-Z0-9]{8}`
+    `\??[a-zA-Z0-9]{8}`
 
 
 <li class=" uu5-bricks-li"><span class="uu-bricks-j5rkb3">Write a regular expression for zip code validation. It must contain exactly five digits, and the third digit may (but need not) be followed by a space.<br>Example of a valid zip code: <code id="dbb384a98d1994435aba6cf77bd382d2-code" class="uu5-bricks-_code uu5-bricks-code">120 00</code> and <code id="6b1939252bb2c44fd9fdbefd7a8e3393-code" class="uu5-bricks-_code uu5-bricks-code">12000</code>.</span></li></ol></div></div>
+
+        `\d{5}|\d{3} \d{2}`
 
 
